@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: km
+    env: node
+    rootDir: .
+    buildCommand: npm install && npm run build
+    startCommand: npm start
